@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig>
+  <Tracking>
+    <ImageTarget name="Rectoria_USAC" size="70.000000 52.500000" />
+    <ImageTarget name="ing_industrial" size="70.000000 25.520834" />
+    <ImageTarget name="ing_quimica" size="70.000000 27.548828" />
+    <ImageTarget name="ing_sistemas" size="70.000000 42.000000" />
+    <ImageTarget name="ing_electronica" size="70.000000 46.621094" />
+    <ImageTarget name="ing_civil" size="70.000000 37.333332" />
+  </Tracking>
+</QCARConfig>
