@@ -9236,35 +9236,16 @@ GameObject:
   - component: {fileID: 778013772}
   - component: {fileID: 778013771}
   - component: {fileID: 778013770}
-  - component: {fileID: 778013769}
   - component: {fileID: 778013777}
   - component: {fileID: 778013776}
+  - component: {fileID: 778013778}
   m_Layer: 0
   m_Name: ImageTarget_industrial
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &778013769
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 778013768}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1778676317, guid: 8a9a760f95896c34689febc965510927, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mObserverBehaviour: {fileID: 778013774}
-  mHiddenRoot: {fileID: 0}
-  mTargetName: ing_industrial
-  mDatasetName: Vuforia/Practica4DB.xml
-  mCastedBehaviour: {fileID: 778013774}
-  mMeshFilter: {fileID: 0}
-  mMeshRenderer: {fileID: 0}
+  m_IsActive: 0
 --- !u!114 &778013770
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9608,7 +9589,7 @@ MonoBehaviour:
   mMotionHint: 1
   mTrackingOptimization: 0
   mTrackingOptimizationNeedsUpgrade: 0
-  mPreview: {fileID: 778013769}
+  mPreview: {fileID: 778013778}
 --- !u!4 &778013775
 Transform:
   m_ObjectHideFlags: 0
@@ -9826,6 +9807,25 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!114 &778013778
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 778013768}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1778676317, guid: 8a9a760f95896c34689febc965510927, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mObserverBehaviour: {fileID: 778013774}
+  mHiddenRoot: {fileID: 0}
+  mTargetName: ing_industrial
+  mDatasetName: Vuforia/Practica4DB.xml
+  mCastedBehaviour: {fileID: 778013774}
+  mMeshFilter: {fileID: 0}
+  mMeshRenderer: {fileID: 0}
 --- !u!1 &799849465
 GameObject:
   m_ObjectHideFlags: 0
@@ -10388,35 +10388,16 @@ GameObject:
   - component: {fileID: 815569920}
   - component: {fileID: 815569919}
   - component: {fileID: 815569918}
-  - component: {fileID: 815569917}
   - component: {fileID: 815569925}
   - component: {fileID: 815569924}
+  - component: {fileID: 815569926}
   m_Layer: 0
   m_Name: ImageTarget_electronica
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
---- !u!114 &815569917
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 815569916}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1778676317, guid: 8a9a760f95896c34689febc965510927, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mObserverBehaviour: {fileID: 815569922}
-  mHiddenRoot: {fileID: 0}
-  mTargetName: ing_electronica
-  mDatasetName: Vuforia/Practica4DB.xml
-  mCastedBehaviour: {fileID: 815569922}
-  mMeshFilter: {fileID: 0}
-  mMeshRenderer: {fileID: 0}
+  m_IsActive: 1
 --- !u!114 &815569918
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10760,7 +10741,7 @@ MonoBehaviour:
   mMotionHint: 1
   mTrackingOptimization: 0
   mTrackingOptimizationNeedsUpgrade: 0
-  mPreview: {fileID: 815569917}
+  mPreview: {fileID: 815569926}
 --- !u!4 &815569923
 Transform:
   m_ObjectHideFlags: 0
@@ -10978,6 +10959,25 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!114 &815569926
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 815569916}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1778676317, guid: 8a9a760f95896c34689febc965510927, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mObserverBehaviour: {fileID: 815569922}
+  mHiddenRoot: {fileID: 0}
+  mTargetName: ing_electronica
+  mDatasetName: Vuforia/Practica4DB.xml
+  mCastedBehaviour: {fileID: 815569922}
+  mMeshFilter: {fileID: 0}
+  mMeshRenderer: {fileID: 0}
 --- !u!1 &815924329
 GameObject:
   m_ObjectHideFlags: 0
